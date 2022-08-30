@@ -1,0 +1,63 @@
+.container {
+    background-color: #3e3d3e;
+    height: 5rem;
+    padding: 2px 0;
+    display: flex;
+    gap: 2px;
+}
+
+.container div {
+    border: 2px solid #2d2d2d;
+    box-shadow: inset 0 0 1px #000000;
+}
+
+.spacer {
+    background-color: #797879;
+    flex: 0 0 2rem;
+    box-shadow: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.teams {
+    flex: 0 0 300px;
+}
+
+.timer {
+    flex: 0 0 100px;
+}
+
+.mj {
+    flex: 1;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.mj img {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+.espn {
+    padding: 0 1.5rem;
+    flex-basis: content;
+    display: flex;
+    justify-content: center;
+}
+
+.espn img {
+    filter: brightness(0) invert(1);
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.8;
+}
